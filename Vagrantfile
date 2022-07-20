@@ -12,26 +12,54 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "bento/ubuntu-20.04"
-  config.vm.hostname = "badass"
+  config.vm.box = "ubuntu/bionic64"
     # Install Docker
   # require plugin https://github.com/leighmcculloch/vagrant-docker-compose
-  config.vagrant.plugins = "vagrant-docker-compose"
+  # config.vagrant.plugins = "vagrant-docker-compose"
 
   # install docker and docker-compose
   config.vm.provision :docker
   config.vm.provision :docker_compose
-  config.vm.provision "shell",
-  inline: "sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get autoremove -y"
-  config.vm.provision "shell",
-  inline: "sudo apt-get -y install python3-pip"
-  config.vm.provision "shell",
-  inline: "pip3 install gns3-gui gns3-server"
 
+  # update apt 
+  # config.vm.provision "shell",
+  # inline: "sudo apt-get -y update && sudo apt-get -y upgrade"
+  # config.vm.provision "shell",
+  # inline: "sudo add-apt-repository ppa:gns3/ppa -y"
+  # config.vm.provision "shell",
+  # inline: "sudo apt-get install gns3-server gns3-gui"
+
+  #install pip
+  # config.vm.provision "shell",
+  # inline: "sudo apt-get -y install python3-pip"
+
+  # #install gns3
+  # config.vm.provision "shell",
+  # inline: "sudo add-apt-repository ppa:gns3/ppa"
+  # config.vm.provision "shell",
+  # inline: "sudo apt-get -y install ffmpeg libsm6 libxext6"
+  # config.vm.provision "shell",
+  # inline: "pip3 install gns3-gui gns3-server PyQt5"
+
+  # copy file to VM
+  config.vm.provision :file do |file|
+    file.source = "~/42/BADASS/P1"
+    file.destination = "~/P1"
+  end
+  config.vm.provision :file do |file|
+    file.source = "~/42/BADASS/P2"
+    file.destination = "~/P2"
+  end
+  config.vm.provision :file do |file|
+    file.source = "~/42/BADASS/P3"
+    file.destination = "~/P3"
+  end
+
+  # VM SETTINGS
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--ioapic", "on"]
     vb.customize ["modifyvm", :id, "--memory", "2048"]
-    vb.customize ["modifyvm", :id, "--cpus", "2"]
+    vb.customize ["modifyvm", :id, "--cpus", "3"]
 
 
     # config.trigger.after :up do |trigger|
@@ -92,4 +120,4 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
-end
+  end

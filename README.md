@@ -11,3 +11,6 @@ utilisé pour transporter des informations d’accessibilité (NLRI) pour divers
 (IPv4, IPv6, L3 VPN et dans le cas qui nous intéresse, EVPN). EVPN est une famille
 spéciale permettant de publier des informations sur les adresses MAC et les équipements
 terminaux y donnant accès.
+
+## Docs
++ [Install GNS3 Ubuntu 20.04](https://computingforgeeks.com/how-to-install-gns3-on-ubuntu/)
