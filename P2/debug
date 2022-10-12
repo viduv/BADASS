@@ -1,0 +1,4 @@
+# Permet de visualiser l'addresse sur eth0
+ip addr show eth0
+# Permet de visualiser l'etat du vxlan
+ip -d link show vxlan10
