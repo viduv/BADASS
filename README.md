@@ -1,0 +1,19 @@
+- [Le fonctionnement basique de GNS3](https://openclassrooms.com/fr/courses/2581701-simulez-des-architectures-reseaux-avec-gns3/4823151-maitrisez-les-fonctionnalites-de-base-de-gns3)
+- [Le fonctionnement global et l'intérêt de BGP](https://www.lemagit.fr/conseil/Tutoriel-BGP-Comprendre-le-protocole-de-routage-qui-fait-fonctionner-Internet-1-2)
+- [Les différences entre la couche 2 et la couche 3 dans un réseau](https://community.fs.com/fr/blog/layer-2-switch-vs-layer-3-switch-what-is-the-difference.html)
+
+- [Ce qu'est un logiciel de routage de paquet](https://www.cloudflare.com/fr-fr/learning/network-layer/what-is-routing/)
+- [Ce qu'est un logiciel de routage de paquet n2](https://docs.oracle.com/cd/E19957-01/820-2982/ipplan-43/index.html)
+- [Ce qu'est le service BGPD demandé dans le sujet](https://www.cloudflare.com/fr-fr/learning/security/glossary/what-is-bgp/)
+- [Ce qu'est le service OSPFD demandé dans le sujet](https://fr.wikipedia.org/wiki/Open_Shortest_Path_First)
+- [Ce qu'est le service de moteur de routage demandé dans le sujet]
+- [Ce qu'est Busybox demandé dans le sujet](https://socratic.dev/quest-ce-que-busybox)
+- [Ce qu'est un VXLAN et les différences avec un VLAN](https://community.fs.com/fr/blog/qinq-vs-vlan-vs-vxlan.html)
+- [Ce qu'est un switch rencontré dans le sujet](https://www.echosdunet.net/dossiers/switch-ou-routeur#:~:text=Le%20switch%20et%20le%20routeur%20se%20ressemblent%2C%20en%20ce%20qu,d'un%20m%C3%AAme%20r%C3%A9seau%20Ethernet.)
+- [Ce qu'est un bridge rencontré dans le sujet](https://fr.acervolima.com/difference-entre-le-pont-et-le-routeur/)
+- [Les différences entre le broadcast et le multicast](https://waytolearnx.com/2018/07/difference-entre-broadcast-et-multicast.html#:~:text=La%20principale%20diff%C3%A9rence%20entre%20le,d%C3%A9livr%C3%A9%20uniquement%20aux%20destinataires%20pr%C3%A9vus.)
+- [Le fonctionnement attendu de la topologie indiqué dans le sujet]
+- [Ce qu'est BGP-EVPN rencontré dans le sujet](https://vincent.bernat.ch/fr/blog/2017-vxlan-bgp-evpn)
+- [Le principe de réfection de route rencontré dans le sujet]
+- [Ce que signifie VTEP rencontré dans le sujet](https://blog.wescale.fr/les-reseaux-doverlay-principes-et-fonctionnement)
+- [Ce que signifie VNI rencontré dans le sujet](https://www.ciscopress.com/articles/article.asp?p=2999385&seqNum=3#:~:text=A%20virtual%20network%20identifier%20(VNI,are%20from%204096%20to%2016%2C777%2C215.))
