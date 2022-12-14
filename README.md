@@ -1,4 +1,4 @@
-- [Le fonctionnement basique de GNS3](https://openclassrooms.com/fr/courses/2581701-simulez-des-architectures-reseaux-avec-gns3/4823151-maitrisez-les-fonctionnalites-de-base-de-gns3)]
+- [Le fonctionnement basique de GNS3](https://openclassrooms.com/fr/courses/2581701-simulez-des-architectures-reseaux-avec-gns3/4823151-maitrisez-les-fonctionnalites-de-base-de-gns3)
 
 GNS3 est un émulateur de réseau qui permet aux utilisateurs de simuler des réseaux informatiques complexes en utilisant des équipements de réseau virtuels. Il est utilisé pour tester et développer des logiciels de réseau, ainsi que pour l'apprentissage et la formation en réseautique.
 Pour utiliser GNS3, les utilisateurs doivent d'abord créer un modèle de réseau en ajoutant des équipements de réseau virtuels, tels que des routeurs et des commutateurs, et en les connectant entre eux pour créer un réseau. Ils peuvent ensuite configurer les équipements virtuels en utilisant des logiciels de réseau comme Cisco IOS, et utiliser des outils d'analyse de réseau pour tester et mesurer les performances du réseau.
